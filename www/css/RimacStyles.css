@@ -1,11 +1,7 @@
 ﻿body {
     background-color: #323131;
-    color: white;
+    color: lightgrey;
     text-align: center;
-}
-.container {
-    background-color: #323131;
-    height: 90vh;
 }
 
 table td {
@@ -52,6 +48,7 @@ table td {
             padding: 0;
             margin: 0;
             /*border: 2px solid #979797;*/
+            height: 45px;
             text-align: center;
         }
 
@@ -81,7 +78,7 @@ div {
 
 
     .song .song-image img {
-        height: 20vh;
+        height: 95px;
         width: 100%;
         margin-top: 3px;
     }
@@ -293,22 +290,10 @@ footer {
     margin-top: 50px;
 }
 .song-date-artist {
+    height: 100%;
     width: 100%;
-    margin-top: 0.8em;
+    margin-top: 0.8em!important;
     color: #a9a9a9;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
     margin-top: 25px;
-}
-.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
-    background-color: #f9f9f9;
-    border-color: #bbb;
-    color: #38c;
-    text-shadow: 0 1px 0 #0072ff;
-}
-.player {
-    position: fixed;
-    width: 100vw;
-    height: 50px;
-    bottom: 0;
-    left: 0;
-    z-index: 999999;
 }
