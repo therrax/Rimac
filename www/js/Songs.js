@@ -1,4 +1,4 @@
-        function Init() {
+﻿        function Init() {
 
             let input = document.getElementById("searchText")
             input.addEventListener("click",
@@ -64,7 +64,7 @@
         function createSongsList(song) {
             //console.log(song.SongId + " " + song.SongName + " " + song.ArtistName + " " + song.ArtistImageUrl);
             let songHtml = `
-                                <div id="${song.SongId}" class="song col-xs-12 col-lg-12" onClick="songClick(this.id)">
+                             <a href="./player.html">   <div id="${song.SongId}" class="song col-xs-12 col-lg-12" onClick="songClick(this.id)">
 
                                        <div class="song-image col-xs-4 col-lg-3">
                                             <img src="${song.ArtistImageUrl}" alt="Loading" />
@@ -77,7 +77,7 @@
                                         </div>
 
 
-                                    </div>
+                                    </div></a>
 `;
             return songHtml.toString();
         }
@@ -92,28 +92,15 @@
         }
 
         function songClick(songID) {
-            alert(songID);
+        
 
             $.ajax({
                 url: 'http://api.dragonet.com.pl/api/music/ChooseSong?id=' + songID,
                 method: 'GET',
                 dataType: "text",
-                success: function(data) {
-                    let list = new Array();
-
-                    var jsonData = JSON.parse(data);
-
-               
-                        //let songId = jsonData.SongId
-                        //let songName = jsonData.SongName
-                        //let songArtistName = jsonData.ArtistName
-                        //let SongArtistImgUrl = jsonData.ArtistImageUrl
-
-                      
-
+                success: function() {
                     
 
-                    //document.getElementById("songs-items").innerHTML = list
 
                 }
 

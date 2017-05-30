@@ -94,6 +94,11 @@ footer {
     ---------> PLAYMUSIC <---------
     
     */
+
+#music-player {
+    margin-top: 60px;    
+
+}
 #music-player .artist-name {
     display: block;
     margin-top: 5px;
@@ -142,7 +147,7 @@ footer {
     border-radius: 50%;
     position: absolute;
     top: 5px;
-    left: 130px;
+    left: 100px;
 }
 
     .player-buttons:hover {
@@ -167,18 +172,13 @@ footer {
 }
 
 #player-background {
-    margin-top: 5px;
-    background-image: url('img/20746_cityscape_dual_screen_dual_monitor_dark_city.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: contain;
-    background-position: 100px 250px;
+    margin-top: 25px;
+    background-color: #00234c;
     width: 95%;
     height: 230px;
     border: 1px solid white;
     border-radius: 100px /25px;
-    margin-left: 0px;
+    margin-left: 25px;
 }
 
 .btn-addToTopList {

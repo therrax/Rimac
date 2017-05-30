@@ -1,10 +1,4 @@
-
-    body {
-        
-    }
-
-
-
+﻿
   #slider {
         width: 400px;
         height: 17px;
@@ -129,14 +123,7 @@
     }
 
     #slider-vertical span {
-        width: 1.1em;
+        width: 1.3em;
         height: 1.1em;
     }
 
-    body {
-        background-image: url('../../Content/rimac-player/img/Black Music Backgrounds  wallpaper wallpaper hd background desktop.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-position: 00px 0px;
-    }
