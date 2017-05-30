@@ -8835,3 +8835,4 @@ if ( typeof window === "object" && typeof window.document === "object" ) {
 }
 
 })( window );
+ $.support.cors = true;
