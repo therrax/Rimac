@@ -5,7 +5,7 @@
         version= "1.0.0" >
   <name>Rimac Music Player</name> 
   <description>UI</description>
-  <author href="http://therrax.pl" email="therrax@gmail.com">Therrax & Dragonet</author>
+  <author href="http://therrax.pl" email="therrax@gmail.com">Therrax Dragonet</author>
   <platform name="android" />
   <plugin name="cordova-plugin-device" spec="~1.1.4" />
   <plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
