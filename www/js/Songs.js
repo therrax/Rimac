@@ -64,7 +64,7 @@
         function createSongsList(song) {
             //console.log(song.SongId + " " + song.SongName + " " + song.ArtistName + " " + song.ArtistImageUrl);
             let songHtml = `
-                             <a href="./player.html">   <div id="${song.SongId}" class="song col-xs-12 col-lg-12" onClick="songClick(this.id)">
+                             <a >   <div id="${song.SongId}" class="song col-xs-12 col-lg-12" onClick="songClick(this.id)">
 
                                        <div class="song-image col-xs-4 col-lg-3">
                                             <img src="${song.ArtistImageUrl}" alt="Loading" />
@@ -100,7 +100,7 @@
                 dataType: "text",
                 success: function() {
                     
-
+                 window.location = "./player.html"       
 
                 }
 
